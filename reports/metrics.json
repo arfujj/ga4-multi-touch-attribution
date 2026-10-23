@@ -161,7 +161,7 @@
   },
   "attribution": {
     "n_boot": 1000,
-    "bootstrap_seconds": 3.70613694190979,
+    "bootstrap_seconds": 5.523264169692993,
     "seed": 42,
     "total_conversions": 4848.0,
     "total_revenue": 340582.0,

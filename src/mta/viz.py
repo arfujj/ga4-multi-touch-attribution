@@ -25,6 +25,9 @@ CHANNEL_COLORS = {
     "Display": "#4a3aa7",
     "Other/Unknown": "#8a8984",
 }
+# Channels a marketing team can actually put budget/effort into. Direct and Other/Unknown are
+# outcomes of other activity (or unmeasurable), so they are never reallocation sources/targets.
+ADDRESSABLE = ["Organic Search", "Paid Search", "Referral", "Email", "Social", "Display"]
 MODEL_ORDER = [
     "first_touch", "last_touch", "last_non_direct", "linear", "time_decay", "position_based", "markov", "shapley",
 ]
@@ -46,9 +49,9 @@ def style(fig: go.Figure, title: str | None = None, height: int = 420) -> go.Fig
         title=dict(text=title, x=0, xanchor="left", font=dict(size=16, color=INK)) if title else None,
         font=dict(family=FONT, size=12, color=INK_2),
         paper_bgcolor=SURFACE, plot_bgcolor=SURFACE, height=height,
-        margin=dict(l=10, r=20, t=60 if title else 20, b=10),
+        margin=dict(l=10, r=20, t=90 if title else 40, b=10),
         hoverlabel=dict(bgcolor="white", font=dict(family=FONT, color=INK)),
-        legend=dict(orientation="h", yanchor="top", y=-0.12, x=0, title=None),
+        legend=dict(orientation="h", yanchor="bottom", y=1.01, x=0, xanchor="left", title=None),
         bargap=0.25,
     )
     fig.update_xaxes(gridcolor=GRID, zerolinecolor=GRID, linecolor=GRID)
@@ -263,3 +266,66 @@ def budget_chart(sim: pd.DataFrame) -> go.Figure:
     fig.update_yaxes(title="Change in data-driven revenue (USD, 92 days)", tickprefix="$")
     fig.update_xaxes(showgrid=False)
     return style(fig, "Directional impact of the reallocation", height=380)
+
+
+# --------------------------------------------------------------------------- story charts
+
+def coverage_bar(sessions: int, inferred: int, other_unknown: int) -> go.Figure:
+    """One 100% bar: how much traffic has a known source vs inferred Direct vs obfuscated."""
+    known = sessions - inferred - other_unknown
+    parts = [("Known source", known, "#2a78d6"), ("No source, counted as Direct", inferred, "#9ec5f4"),
+             ("Obfuscated (Other/Unknown)", other_unknown, "#8a8984")]
+    fig = go.Figure()
+    for name, v, color in parts:
+        fig.add_trace(go.Bar(
+            y=[""], x=[v / sessions * 100], name=name, orientation="h", marker=dict(color=color, line=dict(color=SURFACE, width=2)),
+            text=f"{name}<br><b>{v / sessions:.0%}</b>" if v / sessions >= 0.15 else "", textposition="inside",
+            insidetextanchor="middle",
+            textfont=dict(color="white" if color != "#9ec5f4" else INK, size=13),
+            hovertemplate=f"{name}: {v:,} sessions ({v / sessions:.1%})<extra></extra>",
+        ))
+    fig.update_layout(barmode="stack", showlegend=False)
+    fig.update_xaxes(visible=False, range=[0, 100])
+    fig.update_yaxes(visible=False)
+    fig = style(fig, None, 120)
+    fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
+    return fig
+
+
+def dumbbell(bias: pd.DataFrame, metric: str = "revenue", channels: list[str] | None = None) -> go.Figure:
+    """Last touch vs Markov vs Shapley per channel, joined by a line: how far credit moves."""
+    d = bias[bias.metric == metric].set_index("channel")
+    chans = [c for c in (channels or CHANNEL_ORDER) if c in d.index and d.at[c, "last_touch"] > 0]
+    pos = {c: i for i, c in enumerate(chans)}
+    fig = go.Figure()
+    for c in chans:
+        xs = [d.at[c, "last_touch"], d.at[c, "markov"], d.at[c, "shapley"]]
+        fig.add_trace(go.Scatter(x=[min(xs), max(xs)], y=[pos[c]] * 2, mode="lines", showlegend=False,
+                                 line=dict(color="#d6d5d0", width=6), hoverinfo="skip"))
+    fmt = (lambda v: money(v)) if metric == "revenue" else (lambda v: f"{v:,.0f}")
+    for col, name, color, symbol in [("last_touch", "Last click", INK_2, "diamond"),
+                                     ("markov", "Markov", "#2a78d6", "circle"), ("shapley", "Shapley", "#eb6834", "circle")]:
+        fig.add_trace(go.Scatter(
+            x=[d.at[c, col] for c in chans], y=[pos[c] for c in chans], mode="markers", name=name,
+            marker=dict(color=color, size=13, symbol=symbol, line=dict(color=SURFACE, width=2)),
+            customdata=[[c, fmt(d.at[c, col])] for c in chans],
+            hovertemplate="%{customdata[0]} · " + name + ": %{customdata[1]}<extra></extra>",
+        ))
+    fig.update_yaxes(tickvals=list(pos.values()), ticktext=chans, autorange="reversed", showgrid=False, zeroline=False)
+    fig.update_xaxes(title="Credited revenue (USD)" if metric == "revenue" else "Credited conversions",
+                     tickprefix="$" if metric == "revenue" else "", zeroline=False)
+    return style(fig, None, 60 + 52 * len(chans))
+
+
+def value_per_session_bar(vps: pd.Series, highlight: list[str]) -> go.Figure:
+    """Data-driven revenue per session; highlighted channels in colour, the rest gray."""
+    v = vps.reindex([c for c in CHANNEL_ORDER if c in vps.index and c in ADDRESSABLE]).dropna().sort_values()
+    fig = go.Figure(go.Bar(
+        x=v.values, y=v.index, orientation="h",
+        marker_color=[CHANNEL_COLORS[c] if c in highlight else "#d6d5d0" for c in v.index],
+        text=[money(x, decimals=2) for x in v.values], textposition="outside", cliponaxis=False,
+        hovertemplate="%{y}: %{text} per session<extra></extra>",
+    ))
+    fig.update_xaxes(title="Data-driven (Markov) revenue per session", tickprefix="$", showgrid=True)
+    fig.update_yaxes(showgrid=False)
+    return style(fig, None, 70 + 48 * len(v))

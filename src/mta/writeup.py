@@ -292,13 +292,17 @@ flowchart LR
 
 ## Dashboard
 
-| Overview | Attribution comparison |
+A Streamlit app that opens on **"The story"**: six short chapters for a non-technical reader (what we can
+measure, how people buy, what last click gets wrong, whether it's real, what to do with budget, where the
+biggest opportunity is), followed by recommendations. Explore pages hold the detail: an attribution explorer
+with all 8 models and confidence intervals, an interactive budget simulator, funnel and journey breakdowns,
+and the data and method.
+
+| The story | Attribution explorer |
 |---|---|
-| ![Overview](docs/screenshots/overview.png) | ![Attribution](docs/screenshots/attribution.png) |
-| **Confidence intervals** | **Budget simulator** |
-| ![Intervals](docs/screenshots/intervals.png) | ![Budget](docs/screenshots/budget.png) |
-| **Journeys (Sankey)** | **Funnel** |
-| ![Journeys](docs/screenshots/journeys.png) | ![Funnel](docs/screenshots/funnel.png) |
+| ![Story](docs/screenshots/story.png) | ![Attribution](docs/screenshots/attribution.png) |
+| **Budget simulator** | **Funnel & journeys** |
+| ![Budget](docs/screenshots/budget.png) | ![Funnel](docs/screenshots/funnel.png) |
 
 ## How to run
 
@@ -310,7 +314,7 @@ gcloud auth application-default login     # credentials via ADC, no key files
 cp .env.example .env                       # set GCP_PROJECT_ID
 make setup                                 # venv + pinned requirements
 make all                                   # profile → dbt build (+tests) → extract → models → write-ups
-make dashboard                             # http://localhost:8501
+make dashboard                             # http://localhost:8501 (reads only reports/, no GCP needed)
 ```
 
 The last full `make all` processed {F.scan_gb:,.1f} GB in BigQuery, measured from job statistics (the free tier is 1 TB/month). Every

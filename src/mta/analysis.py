@@ -30,9 +30,7 @@ STEP_LABELS = {
     "session_start": "Session start", "view_item": "View item", "add_to_cart": "Add to cart",
     "begin_checkout": "Begin checkout", "add_payment_info": "Add payment info", "purchase": "Purchase",
 }
-# Channels a marketing team can actually put budget/effort into. Direct and Other/Unknown are
-# outcomes of other activity (or unmeasurable), so they are never reallocation sources/targets.
-ADDRESSABLE = ["Organic Search", "Paid Search", "Referral", "Email", "Social", "Display"]
+ADDRESSABLE = viz.ADDRESSABLE
 MIN_CONVERSIONS = 30  # minimum last-touch or data-driven conversions to be a reallocation candidate
 SHIFT_PCT = 0.10
 RETURNS_SCENARIOS = {"Constant returns (k=1.0)": 1.0, "Moderate diminishing (k=0.75)": 0.75, "Strong diminishing (k=0.5)": 0.5}
@@ -364,6 +362,8 @@ def main(n_boot: int = 1000, seed: int = 42) -> None:
     f_channel.to_csv(REPORTS / "funnel_by_channel.csv", index=False)
     f_device.to_csv(REPORTS / "funnel_by_device.csv", index=False)
     A.transition_matrix(j).to_csv(REPORTS / "markov_transition_matrix.csv")
+    daily.to_csv(REPORTS / "sessions_daily.csv", index=False)
+    pd.read_parquet(CACHE / "channel_map.parquet").to_csv(REPORTS / "channel_map.csv", index=False)
     boot.to_parquet(REPORTS / "bootstrap_replicates.parquet", index=False)
     (REPORTS / "metrics.json").write_text(json.dumps(metrics, indent=2, default=float))
 

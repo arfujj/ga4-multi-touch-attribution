@@ -8,8 +8,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
-PAGES = {"overview": "", "funnel": "funnel", "journeys": "journeys", "attribution": "attribution",
-         "intervals": "intervals", "budget": "budget"}
+PAGES = {"story": "", "attribution": "attribution", "budget": "budget", "funnel": "funnel", "data": "data"}
 
 
 def main(port: int) -> None:
@@ -22,10 +21,14 @@ def main(port: int) -> None:
             page.goto(f"http://localhost:{port}/{path}")
             page.wait_for_selector("[data-testid='stMainBlockContainer']", timeout=60000)
             page.wait_for_load_state("networkidle")
-            page.wait_for_timeout(4000)  # let plotly finish drawing
+            for _ in range(30):  # first load computes the cached data; wait for charts to appear
+                if page.locator(".js-plotly-plot").count():
+                    break
+                page.wait_for_timeout(1000)
+            page.wait_for_timeout(2500)  # let plotly finish drawing
             errors = page.locator("[data-testid='stException']").count()
-            if errors:
-                raise SystemExit(f"Page '{name}' rendered a Streamlit exception")
+            if errors or page.get_by_text("Script execution error").count():
+                raise SystemExit(f"Page '{name}' rendered a Streamlit error")
             page.screenshot(path=str(out / f"{name}.png"), full_page=True)
             print(f"  docs/screenshots/{name}.png")
         browser.close()
