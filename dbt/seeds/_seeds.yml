@@ -1,0 +1,16 @@
+version: 2
+seeds:
+  - name: channel_rules
+    description: >
+      Ordered rules mapping (source, medium) to a channel group. Regexes are matched against
+      lower-cased source/medium; missing values become '(null)'. First match by priority wins.
+    columns:
+      - name: priority
+        tests: [not_null, unique]
+      - name: rule_name
+        tests: [not_null, unique]
+      - name: channel_group
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Organic Search', 'Paid Search', 'Direct', 'Referral', 'Email', 'Social', 'Display', 'Other/Unknown']

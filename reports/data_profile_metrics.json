@@ -1,0 +1,15 @@
+{
+  "min_date": "2020-11-01",
+  "max_date": "2021-01-31",
+  "n_days": 92,
+  "events": 4295584,
+  "users": 270154,
+  "sessions": 360129,
+  "sessions_without_source_params": 94553,
+  "sessions_obfuscated_source": 56919,
+  "sessions_self_referral": 56491,
+  "purchase_events": 5692,
+  "duplicate_purchase_events": 321,
+  "gross_revenue_usd": 362165.0,
+  "dedup_revenue_usd": 340582.0
+}

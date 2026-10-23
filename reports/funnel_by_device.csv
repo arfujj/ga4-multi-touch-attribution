@@ -1,0 +1,19 @@
+device_category,step_order,step,sessions,prev,step_rate,drop_off,step_label
+desktop,1,session_start,208942,,,,Session start
+desktop,2,view_item,44819,208942,0.21450450364215906,164123,View item
+desktop,3,add_to_cart,8780,44819,0.1958990606662353,36039,Add to cart
+desktop,4,begin_checkout,3425,8780,0.39009111617312076,5355,Begin checkout
+desktop,5,add_payment_info,2196,3425,0.6411678832116788,1229,Add payment info
+desktop,6,purchase,1606,2196,0.7313296903460837,590,Purchase
+mobile,1,session_start,143185,,,,Session start
+mobile,2,view_item,30501,143185,0.21301812340678145,112684,View item
+mobile,3,add_to_cart,6072,30501,0.1990754401495033,24429,Add to cart
+mobile,4,begin_checkout,2404,6072,0.3959156785243742,3668,Begin checkout
+mobile,5,add_payment_info,1574,2404,0.6547420965058236,830,Add payment info
+mobile,6,purchase,1180,1574,0.7496823379923762,394,Purchase
+tablet,1,session_start,8002,,,,Session start
+tablet,2,view_item,1700,8002,0.2124468882779305,6302,View item
+tablet,3,add_to_cart,321,1700,0.1888235294117647,1379,Add to cart
+tablet,4,begin_checkout,130,321,0.40498442367601245,191,Begin checkout
+tablet,5,add_payment_info,88,130,0.676923076923077,42,Add payment info
+tablet,6,purchase,62,88,0.7045454545454546,26,Purchase

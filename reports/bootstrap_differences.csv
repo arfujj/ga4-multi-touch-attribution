@@ -1,0 +1,49 @@
+metric,comparison,channel,estimate,ci_low,ci_high,significant
+conversions,markov - last_touch,Direct,-2.479657164682976,-16.272272022978267,10.011809326397676,False
+conversions,markov - last_touch,Display,0.2891526275729061,0.16123279296373036,0.4459524280374868,True
+conversions,markov - last_touch,Email,-4.880890058441885,-6.918928178782452,-3.2418162966311628,True
+conversions,markov - last_touch,Organic Search,-1.1127597673769287,-13.011815554052982,10.86540847067339,False
+conversions,markov - last_touch,Other/Unknown,55.14397824942233,48.917726640682865,61.12511150922248,True
+conversions,markov - last_touch,Paid Search,15.447806289830332,13.047929574691262,17.590769279557506,True
+conversions,markov - last_touch,Referral,-64.11825187212753,-74.93273082285342,-54.24919489547002,True
+conversions,markov - last_touch,Social,1.7106216958043072,0.9676726201209451,2.341856415246708,True
+conversions,shapley - last_touch,Direct,-178.61666666666656,-217.12791666666678,-141.4437499999996,True
+conversions,shapley - last_touch,Display,0.0,0.0,0.0,False
+conversions,shapley - last_touch,Email,-0.5000000000000142,-7.335416666666669,6.335416666666667,False
+conversions,shapley - last_touch,Organic Search,137.1333333333332,104.98083333333312,171.05374999999972,True
+conversions,shapley - last_touch,Other/Unknown,5.7999999999999545,-14.507083333333217,25.437499999999947,False
+conversions,shapley - last_touch,Paid Search,14.050000000000004,7.064166666666678,21.434166666666663,True
+conversions,shapley - last_touch,Referral,21.633333333333212,-5.401249999999635,47.06833333333418,False
+conversions,shapley - last_touch,Social,0.4999999999999929,0.0,1.5,False
+conversions,markov - shapley,Direct,176.13700950198358,143.53927940891336,208.4233393224145,True
+conversions,markov - shapley,Display,0.2891526275729061,0.16123279296373036,0.4459524280374868,True
+conversions,markov - shapley,Email,-4.380890058441871,-10.540350418072308,1.511706311081395,False
+conversions,markov - shapley,Organic Search,-138.24609310071014,-168.74696717311295,-109.44937388266469,True
+conversions,markov - shapley,Other/Unknown,49.34397824942238,31.910099594657165,66.1454332495128,True
+conversions,markov - shapley,Paid Search,1.3978062898303278,-5.46893851068237,8.132610152553777,False
+conversions,markov - shapley,Referral,-85.75158520546074,-108.89995706867384,-61.8438716686688,True
+conversions,markov - shapley,Social,1.2106216958043143,-0.13596738402153632,2.225059855640427,False
+revenue,markov - last_touch,Direct,-6207.626844144339,-10693.192813892012,-1407.9948760143734,True
+revenue,markov - last_touch,Display,0.0,0.0,0.0,False
+revenue,markov - last_touch,Email,-1056.6937543030213,-1716.9721211252897,-507.3588496464445,True
+revenue,markov - last_touch,Organic Search,17627.60574236598,13272.84114514864,22029.58871652525,True
+revenue,markov - last_touch,Other/Unknown,-7233.916424568761,-9581.534661912088,-5130.1074067846275,True
+revenue,markov - last_touch,Paid Search,-545.118799885252,-1086.6646390436515,-149.3799691809807,True
+revenue,markov - last_touch,Referral,-2584.351763970015,-6002.5957278293745,567.7344785852481,False
+revenue,markov - last_touch,Social,0.10184450523678379,0.0,0.3844355310486975,False
+revenue,shapley - last_touch,Direct,-18063.28333333334,-22889.427083333332,-13073.229583333346,True
+revenue,shapley - last_touch,Display,0.0,0.0,0.0,False
+revenue,shapley - last_touch,Email,223.99999999999955,-250.32916666666694,734.3666666666663,False
+revenue,shapley - last_touch,Organic Search,11779.633333333404,7206.976666666669,16033.512916666677,True
+revenue,shapley - last_touch,Other/Unknown,1940.9666666666708,-566.4133333333409,4319.491249999999,False
+revenue,shapley - last_touch,Paid Search,1139.5500000000002,427.87624999999986,1885.7754166666664,True
+revenue,shapley - last_touch,Referral,2963.6333333333023,-445.4225000000035,6287.499166666656,False
+revenue,shapley - last_touch,Social,15.499999999999886,0.0,46.5,False
+revenue,markov - shapley,Direct,11855.656489189001,9962.324407968,13948.607139927683,True
+revenue,markov - shapley,Display,0.0,0.0,0.0,False
+revenue,markov - shapley,Email,-1280.6937543030208,-1766.2146334244953,-834.3475035134531,True
+revenue,markov - shapley,Organic Search,5847.972409032576,4425.153693135916,7374.742823793735,True
+revenue,markov - shapley,Other/Unknown,-9174.883091235431,-10634.794388962464,-7849.824950941588,True
+revenue,markov - shapley,Paid Search,-1684.6687998852522,-2304.0150166848994,-1174.2499952143194,True
+revenue,markov - shapley,Referral,-5547.985097303317,-6817.698116870844,-4443.0998179009985,True
+revenue,markov - shapley,Social,-15.398155494763103,-46.2510735308988,0.0,False

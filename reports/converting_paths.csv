@@ -1,0 +1,561 @@
+path,journeys,revenue,share,n_touches
+Organic Search,1102,69765.0,0.2273102310231023,1
+Referral,653,44709.0,0.1346947194719472,1
+Direct,426,25825.0,0.08787128712871287,1
+Direct > Direct,200,14695.0,0.041254125412541254,2
+Organic Search > Direct,168,11593.0,0.034653465346534656,2
+Organic Search > Organic Search,127,8583.0,0.026196369636963698,2
+Direct > Direct > Direct,125,10419.0,0.025783828382838284,3
+Other/Unknown,108,7371.0,0.022277227722772276,1
+Referral > Direct,84,5428.0,0.017326732673267328,2
+Direct > Organic Search,64,4415.0,0.013201320132013201,2
+Direct > Direct > Direct > Direct,59,4885.0,0.01216996699669967,4
+Organic Search > Direct > Direct,57,5197.0,0.011757425742574257,3
+Referral > Referral,49,3049.0,0.010107260726072606,2
+Referral > Organic Search,47,2989.0,0.009694719471947194,2
+Organic Search > Referral,46,4132.0,0.009488448844884489,2
+Organic Search > Direct > Organic Search,42,2489.0,0.008663366336633664,3
+Direct > Direct > Direct > Direct > Direct,41,5434.0,0.008457095709570957,5
+Organic Search > Other/Unknown,41,2776.0,0.008457095709570957,2
+Other/Unknown > Direct,39,2284.0,0.008044554455445545,2
+Paid Search,34,2365.0,0.007013201320132013,1
+Direct > Referral,34,2950.0,0.007013201320132013,2
+Organic Search > Direct > Direct > Direct,30,1286.0,0.006188118811881188,4
+Referral > Direct > Direct,27,2080.0,0.005569306930693069,3
+Organic Search > Direct > Direct > Direct > Direct,26,2847.0,0.005363036303630363,5
+Organic Search > Organic Search > Direct,25,1068.0,0.005156765676567657,3
+Organic Search > Organic Search > Organic Search,25,1981.0,0.005156765676567657,3
+Referral > Direct > Referral,24,1645.0,0.0049504950495049506,3
+Organic Search > Direct > Referral,24,1110.0,0.0049504950495049506,3
+Email,22,1395.0,0.004537953795379538,1
+Referral > Other/Unknown,21,1034.0,0.004331683168316832,2
+Direct > Organic Search > Direct,19,2401.0,0.003919141914191419,3
+Direct > Direct > Organic Search,18,681.0,0.0037128712871287127,3
+Direct > Other/Unknown,18,810.0,0.0037128712871287127,2
+Direct > Direct > Direct > Direct > Direct > Direct,16,1158.0,0.0033003300330033004,6
+Direct > Direct > Referral,15,1360.0,0.003094059405940594,3
+Other/Unknown > Organic Search,14,827.0,0.0028877887788778876,2
+Organic Search > Other/Unknown > Direct,13,1360.0,0.0026815181518151814,3
+Organic Search > Direct > Direct > Organic Search,13,606.0,0.0026815181518151814,4
+Other/Unknown > Other/Unknown,12,734.0,0.0024752475247524753,2
+Referral > Direct > Organic Search,12,854.0,0.0024752475247524753,3
+Referral > Direct > Direct > Direct,12,705.0,0.0024752475247524753,4
+Direct > Direct > Direct > Referral,12,612.0,0.0024752475247524753,4
+Direct > Referral > Referral,11,728.0,0.002268976897689769,3
+Referral > Referral > Referral,11,430.0,0.002268976897689769,3
+Organic Search > Direct > Organic Search > Organic Search,10,374.0,0.0020627062706270625,4
+Direct > Email,9,384.0,0.0018564356435643563,2
+Other/Unknown > Direct > Organic Search,9,755.0,0.0018564356435643563,3
+Other/Unknown > Referral,9,337.0,0.0018564356435643563,2
+Organic Search > Referral > Direct,9,360.0,0.0018564356435643563,3
+Organic Search > Organic Search > Organic Search > Organic Search,9,681.0,0.0018564356435643563,4
+Referral > Referral > Direct,9,445.0,0.0018564356435643563,3
+Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,8,796.0,0.0016501650165016502,8
+Direct > Organic Search > Organic Search,8,666.0,0.0016501650165016502,3
+Referral > Direct > Direct > Referral,8,478.0,0.0016501650165016502,4
+Direct > Direct > Direct > Direct > Direct > Direct > Direct,8,755.0,0.0016501650165016502,7
+Direct > Direct > Other/Unknown,8,748.0,0.0016501650165016502,3
+Paid Search > Direct,7,684.0,0.0014438943894389438,2
+Direct > Direct > Direct > Organic Search,7,466.0,0.0014438943894389438,4
+Referral > Organic Search > Organic Search,7,295.0,0.0014438943894389438,3
+Organic Search > Organic Search > Direct > Direct,7,566.0,0.0014438943894389438,4
+Organic Search > Organic Search > Direct > Direct > Direct,6,421.0,0.0012376237623762376,5
+Other/Unknown > Direct > Direct,6,298.0,0.0012376237623762376,3
+Direct > Referral > Direct > Direct,6,1480.0,0.0012376237623762376,4
+Organic Search > Direct > Organic Search > Direct,6,265.0,0.0012376237623762376,4
+Organic Search > Direct > Other/Unknown,6,441.0,0.0012376237623762376,3
+Other/Unknown > Organic Search > Direct,6,339.0,0.0012376237623762376,3
+Direct > Organic Search > Direct > Direct,5,905.0,0.0010313531353135313,4
+Organic Search > Organic Search > Referral,5,224.0,0.0010313531353135313,3
+Referral > Referral > Referral > Referral,5,307.0,0.0010313531353135313,4
+Referral > Direct > Referral > Referral,5,498.0,0.0010313531353135313,4
+Organic Search > Organic Search > Other/Unknown,5,288.0,0.0010313531353135313,3
+Referral > Organic Search > Referral,5,186.0,0.0010313531353135313,3
+Direct > Referral > Direct,5,594.0,0.0010313531353135313,3
+Organic Search > Other/Unknown > Organic Search,5,421.0,0.0010313531353135313,3
+Organic Search > Direct > Direct > Direct > Direct > Direct,5,299.0,0.0010313531353135313,6
+Organic Search > Referral > Referral,5,478.0,0.0010313531353135313,3
+Organic Search > Organic Search > Direct > Direct > Organic Search,5,264.0,0.0010313531353135313,5
+Paid Search > Other/Unknown,5,495.0,0.0010313531353135313,2
+Organic Search > Other/Unknown > Other/Unknown,5,283.0,0.0010313531353135313,3
+Organic Search > Referral > Direct > Referral,4,147.0,0.0008250825082508251,4
+Referral > Direct > Other/Unknown,4,812.0,0.0008250825082508251,3
+Other/Unknown > Other/Unknown > Direct,4,336.0,0.0008250825082508251,3
+Organic Search > Organic Search > Direct > Organic Search,4,324.0,0.0008250825082508251,4
+Referral > Direct > Direct > Organic Search,4,169.0,0.0008250825082508251,4
+Referral > Other/Unknown > Referral,4,168.0,0.0008250825082508251,3
+Referral > Referral > Referral > Referral > Referral,4,193.0,0.0008250825082508251,5
+Direct > Other/Unknown > Other/Unknown,4,320.0,0.0008250825082508251,3
+Email > Direct,4,338.0,0.0008250825082508251,2
+Social,4,84.0,0.0008250825082508251,1
+Direct > Organic Search > Other/Unknown,4,137.0,0.0008250825082508251,3
+Referral > Paid Search,4,184.0,0.0008250825082508251,2
+Direct > Referral > Direct > Direct > Direct > Direct,4,574.0,0.0008250825082508251,6
+Direct > Direct > Email,4,132.0,0.0008250825082508251,3
+Referral > Direct > Direct > Direct > Direct,4,281.0,0.0008250825082508251,5
+Other/Unknown > Direct > Direct > Direct,4,144.0,0.0008250825082508251,4
+Other/Unknown > Direct > Direct > Other/Unknown,4,212.0,0.0008250825082508251,4
+Direct > Referral > Other/Unknown,4,240.0,0.0008250825082508251,3
+Other/Unknown > Organic Search > Organic Search,4,139.0,0.0008250825082508251,3
+Other/Unknown > Other/Unknown > Direct > Direct,3,144.0,0.0006188118811881188,4
+Organic Search > Direct > Other/Unknown > Referral,3,258.0,0.0006188118811881188,4
+Referral > Referral > Direct > Referral,3,400.0,0.0006188118811881188,4
+Paid Search > Direct > Direct,3,196.0,0.0006188118811881188,3
+Organic Search > Direct > Referral > Direct,3,269.0,0.0006188118811881188,4
+Organic Search > Direct > Organic Search > Direct > Direct,3,542.0,0.0006188118811881188,5
+Other/Unknown > Organic Search > Direct > Direct,3,198.0,0.0006188118811881188,4
+Referral > Direct > Referral > Direct,3,179.0,0.0006188118811881188,4
+Organic Search > Other/Unknown > Referral,3,369.0,0.0006188118811881188,3
+Direct > Referral > Referral > Referral,3,86.0,0.0006188118811881188,4
+Other/Unknown > Organic Search > Other/Unknown,3,243.0,0.0006188118811881188,3
+Direct > Direct > Referral > Direct,3,317.0,0.0006188118811881188,4
+Direct > Other/Unknown > Direct,3,196.0,0.0006188118811881188,3
+Organic Search > Direct > Direct > Direct > Other/Unknown,3,115.0,0.0006188118811881188,5
+Other/Unknown > Direct > Other/Unknown > Direct,3,253.0,0.0006188118811881188,4
+Direct > Direct > Organic Search > Direct,3,293.0,0.0006188118811881188,4
+Other/Unknown > Direct > Referral,3,125.0,0.0006188118811881188,3
+Direct > Organic Search > Organic Search > Direct,3,153.0,0.0006188118811881188,4
+Referral > Other/Unknown > Organic Search,3,386.0,0.0006188118811881188,3
+Direct > Direct > Direct > Referral > Direct,3,270.0,0.0006188118811881188,5
+Other/Unknown > Direct > Direct > Direct > Direct,3,201.0,0.0006188118811881188,5
+Direct > Email > Direct > Direct,3,185.0,0.0006188118811881188,4
+Referral > Direct > Direct > Direct > Direct > Direct,3,439.0,0.0006188118811881188,6
+Organic Search > Direct > Direct > Referral,3,272.0,0.0006188118811881188,4
+Other/Unknown > Direct > Other/Unknown,3,220.0,0.0006188118811881188,3
+Paid Search > Direct > Organic Search,2,93.0,0.00041254125412541255,3
+Paid Search > Other/Unknown > Direct,2,109.0,0.00041254125412541255,3
+Organic Search > Direct > Direct > Organic Search > Direct,2,127.0,0.00041254125412541255,5
+Paid Search > Organic Search,2,123.0,0.00041254125412541255,2
+Organic Search > Direct > Direct > Organic Search > Organic Search,2,82.0,0.00041254125412541255,5
+Organic Search > Organic Search > Organic Search > Organic Search > Direct,2,24.0,0.00041254125412541255,5
+Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,2,219.0,0.00041254125412541255,9
+Organic Search > Direct > Direct > Other/Unknown,2,156.0,0.00041254125412541255,4
+Organic Search > Direct > Direct > Organic Search > Direct > Direct,2,57.0,0.00041254125412541255,6
+Organic Search > Direct > Direct > Direct > Direct > Organic Search,2,97.0,0.00041254125412541255,6
+Other/Unknown > Other/Unknown > Organic Search,2,118.0,0.00041254125412541255,3
+Referral > Direct > Direct > Direct > Organic Search,2,106.0,0.00041254125412541255,5
+Organic Search > Organic Search > Organic Search > Direct,2,98.0,0.00041254125412541255,4
+Paid Search > Referral > Direct,2,251.0,0.00041254125412541255,3
+Organic Search > Direct > Direct > Direct > Direct > Direct > Direct,2,13.0,0.00041254125412541255,7
+Email > Organic Search,2,177.0,0.00041254125412541255,2
+Referral > Direct > Direct > Referral > Direct,2,39.0,0.00041254125412541255,5
+Email > Other/Unknown,2,126.0,0.00041254125412541255,2
+Organic Search > Organic Search > Organic Search > Direct > Organic Search,2,585.0,0.00041254125412541255,5
+Organic Search > Direct > Other/Unknown > Direct,2,215.0,0.00041254125412541255,4
+Organic Search > Direct > Organic Search > Other/Unknown,2,184.0,0.00041254125412541255,4
+Organic Search > Direct > Referral > Referral,2,171.0,0.00041254125412541255,4
+Organic Search > Direct > Direct > Direct > Organic Search,2,416.0,0.00041254125412541255,5
+Direct > Direct > Direct > Direct > Direct > Organic Search,2,100.0,0.00041254125412541255,6
+Referral > Organic Search > Referral > Referral,2,136.0,0.00041254125412541255,4
+Other/Unknown > Direct > Organic Search > Organic Search,2,515.0,0.00041254125412541255,4
+Other/Unknown > Direct > Direct > Referral,2,256.0,0.00041254125412541255,4
+Direct > Organic Search > Direct > Organic Search,2,206.0,0.00041254125412541255,4
+Referral > Organic Search > Referral > Direct,2,331.0,0.00041254125412541255,4
+Direct > Organic Search > Direct > Direct > Direct > Direct,2,115.0,0.00041254125412541255,6
+Direct > Organic Search > Direct > Direct > Direct,2,42.0,0.00041254125412541255,5
+Referral > Other/Unknown > Direct,2,123.0,0.00041254125412541255,3
+Other/Unknown > Direct > Direct > Direct > Direct > Direct,2,819.0,0.00041254125412541255,6
+Referral > Other/Unknown > Direct > Direct > Direct,2,35.0,0.00041254125412541255,5
+Direct > Direct > Referral > Organic Search > Direct,2,111.0,0.00041254125412541255,5
+Direct > Direct > Referral > Direct > Direct,2,204.0,0.00041254125412541255,5
+Referral > Other/Unknown > Referral > Other/Unknown,2,17.0,0.00041254125412541255,4
+Direct > Direct > Other/Unknown > Direct,2,232.0,0.00041254125412541255,4
+Referral > Other/Unknown > Referral > Referral,2,298.0,0.00041254125412541255,4
+Referral > Referral > Direct > Direct,2,140.0,0.00041254125412541255,4
+Organic Search > Referral > Referral > Direct,2,119.0,0.00041254125412541255,4
+Direct > Direct > Direct > Organic Search > Referral,2,108.0,0.00041254125412541255,5
+Organic Search > Paid Search,2,68.0,0.00041254125412541255,2
+Referral > Referral > Organic Search,2,103.0,0.00041254125412541255,3
+Direct > Direct > Direct > Organic Search > Direct,2,83.0,0.00041254125412541255,5
+Direct > Direct > Direct > Direct > Referral,2,80.0,0.00041254125412541255,5
+Referral > Referral > Other/Unknown,2,176.0,0.00041254125412541255,3
+Direct > Direct > Direct > Direct > Organic Search,2,51.0,0.00041254125412541255,5
+Organic Search > Referral > Organic Search,2,49.0,0.00041254125412541255,3
+Referral > Organic Search > Other/Unknown > Referral,2,150.0,0.00041254125412541255,4
+Direct > Other/Unknown > Direct > Other/Unknown > Direct,2,109.0,0.00041254125412541255,5
+Direct > Referral > Direct > Direct > Referral > Direct,2,216.0,0.00041254125412541255,6
+Other/Unknown > Direct > Referral > Direct,2,102.0,0.00041254125412541255,4
+Referral > Organic Search > Direct,2,162.0,0.00041254125412541255,3
+Direct > Other/Unknown > Organic Search,2,81.0,0.00041254125412541255,3
+Direct > Organic Search > Organic Search > Organic Search,2,42.0,0.00041254125412541255,4
+Organic Search > Organic Search > Organic Search > Other/Unknown,2,119.0,0.00041254125412541255,4
+Direct > Referral > Direct > Organic Search > Direct,2,46.0,0.00041254125412541255,5
+Referral > Organic Search > Direct > Organic Search > Organic Search,2,138.0,0.00041254125412541255,5
+Referral > Direct > Referral > Other/Unknown,2,186.0,0.00041254125412541255,4
+Direct > Other/Unknown > Direct > Organic Search,2,153.0,0.00041254125412541255,4
+Other/Unknown > Other/Unknown > Direct > Direct > Other/Unknown > Organic Search > Organic Search > Organic Search,1,44.0,0.00020627062706270627,8
+Organic Search > Referral > Other/Unknown > Other/Unknown > Organic Search,1,1121.0,0.00020627062706270627,5
+Organic Search > Referral > Other/Unknown > Referral,1,15.0,0.00020627062706270627,4
+Organic Search > Referral > Organic Search > Organic Search > Organic Search > Referral,1,42.0,0.00020627062706270627,6
+Other/Unknown > Other/Unknown > Referral > Direct > Direct > Direct,1,177.0,0.00020627062706270627,6
+Other/Unknown > Other/Unknown > Referral > Direct,1,109.0,0.00020627062706270627,4
+Other/Unknown > Organic Search > Referral > Organic Search,1,48.0,0.00020627062706270627,4
+Other/Unknown > Organic Search > Referral > Referral > Direct > Referral > Direct > Direct > Referral,1,88.0,0.00020627062706270627,9
+Organic Search > Referral > Organic Search > Referral > Organic Search,1,0.0,0.00020627062706270627,5
+Other/Unknown > Organic Search > Direct > Other/Unknown > Other/Unknown > Direct > Direct,1,84.0,0.00020627062706270627,7
+Organic Search > Referral > Organic Search > Organic Search > Organic Search > Direct,1,83.0,0.00020627062706270627,6
+Other/Unknown > Organic Search > Direct > Other/Unknown,1,32.0,0.00020627062706270627,4
+Other/Unknown > Organic Search > Referral,1,0.0,0.00020627062706270627,3
+Organic Search > Referral > Organic Search > Organic Search > Direct > Paid Search > Organic Search,1,22.0,0.00020627062706270627,7
+Other/Unknown > Referral > Direct > Direct > Referral > Direct > Direct > Referral,1,174.0,0.00020627062706270627,8
+Other/Unknown > Organic Search > Direct > Referral,1,24.0,0.00020627062706270627,4
+Organic Search > Referral > Organic Search > Direct > Direct > Organic Search,1,120.0,0.00020627062706270627,6
+Other/Unknown > Referral > Direct > Organic Search > Other/Unknown,1,12.0,0.00020627062706270627,5
+Other/Unknown > Organic Search > Email > Other/Unknown,1,0.0,0.00020627062706270627,4
+Organic Search > Referral > Direct > Referral > Direct > Direct > Direct,1,38.0,0.00020627062706270627,7
+Other/Unknown > Organic Search > Direct > Direct > Organic Search > Organic Search > Direct > Direct > Direct > Direct,1,712.0,0.00020627062706270627,10
+Other/Unknown > Other/Unknown > Other/Unknown > Direct,1,77.0,0.00020627062706270627,4
+Other/Unknown > Other/Unknown > Other/Unknown > Referral > Other/Unknown > Referral > Paid Search > Organic Search > Direct,1,18.0,0.00020627062706270627,9
+Other/Unknown > Direct > Other/Unknown > Referral,1,0.0,0.00020627062706270627,4
+Other/Unknown > Direct > Organic Search > Organic Search > Direct > Direct > Direct > Direct > Referral,1,92.0,0.00020627062706270627,9
+Other/Unknown > Other/Unknown > Direct > Organic Search > Direct,1,67.0,0.00020627062706270627,5
+Other/Unknown > Other/Unknown > Direct > Paid Search > Direct > Referral,1,0.0,0.00020627062706270627,6
+Other/Unknown > Direct > Organic Search > Direct > Direct > Direct > Direct,1,94.0,0.00020627062706270627,7
+Other/Unknown > Direct > Organic Search > Direct > Direct,1,78.0,0.00020627062706270627,5
+Other/Unknown > Other/Unknown > Direct > Referral,1,0.0,0.00020627062706270627,4
+Other/Unknown > Direct > Email,1,71.0,0.00020627062706270627,3
+Other/Unknown > Direct > Direct > Referral > Organic Search,1,25.0,0.00020627062706270627,5
+Other/Unknown > Direct > Organic Search > Organic Search > Paid Search > Direct > Direct > Direct > Direct,1,50.0,0.00020627062706270627,9
+Other/Unknown > Direct > Other/Unknown > Paid Search,1,52.0,0.00020627062706270627,4
+Other/Unknown > Organic Search > Organic Search > Direct,1,30.0,0.00020627062706270627,4
+Other/Unknown > Other/Unknown > Other/Unknown > Direct > Direct > Direct,1,79.0,0.00020627062706270627,6
+Other/Unknown > Direct > Direct > Direct > Direct > Direct > Direct,1,0.0,0.00020627062706270627,7
+Other/Unknown > Direct > Referral > Direct > Organic Search > Direct,1,0.0,0.00020627062706270627,6
+Other/Unknown > Direct > Referral > Other/Unknown > Referral,1,32.0,0.00020627062706270627,5
+Other/Unknown > Other/Unknown > Email,1,92.0,0.00020627062706270627,3
+Other/Unknown > Direct > Referral > Referral,1,214.0,0.00020627062706270627,4
+Organic Search > Referral > Referral > Referral > Direct > Direct > Direct > Direct,1,32.0,0.00020627062706270627,8
+Organic Search > Referral > Referral > Direct > Referral,1,61.0,0.00020627062706270627,5
+Other/Unknown > Other/Unknown > Organic Search > Organic Search > Organic Search > Direct,1,43.0,0.00020627062706270627,6
+Other/Unknown > Direct > Organic Search > Organic Search > Organic Search,1,24.0,0.00020627062706270627,5
+Other/Unknown > Referral > Organic Search,1,99.0,0.00020627062706270627,3
+Other/Unknown > Organic Search > Organic Search > Referral,1,10.0,0.00020627062706270627,4
+Referral > Direct > Direct > Other/Unknown > Other/Unknown,1,44.0,0.00020627062706270627,5
+Other/Unknown > Referral > Referral > Referral > Referral > Direct,1,0.0,0.00020627062706270627,6
+Referral > Organic Search > Organic Search > Other/Unknown,1,92.0,0.00020627062706270627,4
+Referral > Organic Search > Referral > Referral > Referral > Referral,1,73.0,0.00020627062706270627,6
+Referral > Organic Search > Referral > Organic Search > Referral,1,92.0,0.00020627062706270627,5
+Referral > Organic Search > Referral > Direct > Referral > Direct > Referral,1,80.0,0.00020627062706270627,7
+Referral > Organic Search > Other/Unknown > Referral > Referral,1,254.0,0.00020627062706270627,5
+Referral > Organic Search > Other/Unknown > Other/Unknown > Direct > Direct > Direct,1,79.0,0.00020627062706270627,7
+Referral > Organic Search > Other/Unknown > Organic Search > Direct,1,376.0,0.00020627062706270627,5
+Referral > Organic Search > Other/Unknown > Organic Search,1,38.0,0.00020627062706270627,4
+Referral > Organic Search > Other/Unknown > Direct,1,0.0,0.00020627062706270627,4
+Referral > Organic Search > Other/Unknown,1,197.0,0.00020627062706270627,3
+Referral > Organic Search > Organic Search > Other/Unknown > Organic Search > Organic Search > Organic Search,1,166.0,0.00020627062706270627,7
+Referral > Organic Search > Organic Search > Organic Search > Referral > Other/Unknown,1,0.0,0.00020627062706270627,6
+Paid Search > Direct > Direct > Direct > Direct > Direct > Direct,1,0.0,0.00020627062706270627,7
+Referral > Organic Search > Organic Search > Organic Search > Organic Search > Organic Search > Organic Search > Organic Search,1,0.0,0.00020627062706270627,8
+Referral > Organic Search > Organic Search > Organic Search > Direct > Direct > Organic Search > Direct,1,28.0,0.00020627062706270627,8
+Referral > Organic Search > Organic Search > Organic Search,1,24.0,0.00020627062706270627,4
+Referral > Organic Search > Organic Search > Direct,1,94.0,0.00020627062706270627,4
+Referral > Organic Search > Direct > Organic Search > Direct > Referral,1,34.0,0.00020627062706270627,6
+Referral > Organic Search > Direct > Direct > Organic Search > Direct,1,32.0,0.00020627062706270627,6
+Referral > Organic Search > Direct > Direct > Direct,1,104.0,0.00020627062706270627,5
+Referral > Organic Search > Direct > Direct,1,74.0,0.00020627062706270627,4
+Referral > Email > Direct > Direct > Direct > Direct > Direct,1,19.0,0.00020627062706270627,7
+Referral > Email,1,210.0,0.00020627062706270627,2
+Referral > Other/Unknown > Direct > Direct,1,38.0,0.00020627062706270627,4
+Referral > Other/Unknown > Direct > Direct > Direct > Other/Unknown > Direct,1,119.0,0.00020627062706270627,7
+Referral > Other/Unknown > Direct > Other/Unknown,1,20.0,0.00020627062706270627,4
+Referral > Other/Unknown > Organic Search > Other/Unknown > Other/Unknown > Direct > Direct,1,48.0,0.00020627062706270627,7
+Referral > Referral > Referral > Other/Unknown > Referral > Referral > Other/Unknown,1,182.0,0.00020627062706270627,7
+Referral > Referral > Referral > Other/Unknown,1,106.0,0.00020627062706270627,4
+Referral > Referral > Referral > Direct > Direct,1,92.0,0.00020627062706270627,5
+Referral > Referral > Organic Search > Referral > Direct > Referral,1,109.0,0.00020627062706270627,6
+Referral > Referral > Organic Search > Organic Search > Organic Search > Organic Search > Direct > Direct,1,758.0,0.00020627062706270627,8
+Referral > Referral > Organic Search > Organic Search,1,66.0,0.00020627062706270627,4
+Referral > Referral > Organic Search > Direct > Organic Search > Direct,1,80.0,0.00020627062706270627,6
+Referral > Referral > Email,1,0.0,0.00020627062706270627,3
+Referral > Referral > Direct > Referral > Referral > Other/Unknown,1,63.0,0.00020627062706270627,6
+Referral > Referral > Direct > Referral > Referral > Direct > Referral,1,42.0,0.00020627062706270627,7
+Referral > Referral > Direct > Organic Search > Direct > Referral > Direct,1,48.0,0.00020627062706270627,7
+Referral > Referral > Direct > Organic Search,1,100.0,0.00020627062706270627,4
+Referral > Referral > Direct > Direct > Referral > Direct > Direct > Referral > Referral,1,72.0,0.00020627062706270627,9
+Referral > Referral > Direct > Direct > Referral > Direct > Direct > Direct > Direct > Referral,1,32.0,0.00020627062706270627,10
+Referral > Referral > Direct > Direct > Direct > Organic Search > Direct,1,376.0,0.00020627062706270627,7
+Referral > Other/Unknown > Referral > Other/Unknown > Direct > Direct,1,24.0,0.00020627062706270627,6
+Referral > Other/Unknown > Referral > Organic Search > Direct > Organic Search > Organic Search,1,169.0,0.00020627062706270627,7
+Referral > Other/Unknown > Other/Unknown > Referral > Direct > Direct > Direct > Direct > Direct,1,44.0,0.00020627062706270627,9
+Referral > Other/Unknown > Other/Unknown > Direct > Direct,1,88.0,0.00020627062706270627,5
+Referral > Other/Unknown > Other/Unknown,1,39.0,0.00020627062706270627,3
+Referral > Other/Unknown > Organic Search > Referral,1,94.0,0.00020627062706270627,4
+Referral > Direct > Referral > Referral > Referral,1,42.0,0.00020627062706270627,5
+Referral > Direct > Referral > Referral > Direct,1,72.0,0.00020627062706270627,5
+Referral > Direct > Referral > Paid Search,1,26.0,0.00020627062706270627,4
+Referral > Referral > Referral > Referral > Direct > Referral > Organic Search,1,16.0,0.00020627062706270627,7
+Referral > Direct > Direct > Organic Search > Direct > Other/Unknown,1,42.0,0.00020627062706270627,6
+Referral > Direct > Direct > Direct > Referral > Direct > Direct > Direct > Direct,1,10.0,0.00020627062706270627,9
+Referral > Direct > Direct > Direct > Referral,1,48.0,0.00020627062706270627,5
+Referral > Direct > Direct > Direct > Direct > Organic Search,1,0.0,0.00020627062706270627,6
+Paid Search > Referral > Referral > Direct,1,28.0,0.00020627062706270627,4
+Paid Search > Referral > Organic Search > Direct,1,139.0,0.00020627062706270627,4
+Paid Search > Referral,1,0.0,0.00020627062706270627,2
+Paid Search > Paid Search > Direct > Paid Search > Direct,1,16.0,0.00020627062706270627,5
+Paid Search > Paid Search > Direct,1,295.0,0.00020627062706270627,3
+Paid Search > Other/Unknown > Referral > Organic Search > Organic Search > Direct > Direct > Direct > Direct > Organic Search > Organic Search > Direct,1,8.0,0.00020627062706270627,12
+Paid Search > Other/Unknown > Referral,1,0.0,0.00020627062706270627,3
+Paid Search > Other/Unknown > Direct > Other/Unknown > Organic Search,1,57.0,0.00020627062706270627,5
+Paid Search > Organic Search > Organic Search > Organic Search > Organic Search,1,47.0,0.00020627062706270627,5
+Paid Search > Organic Search > Organic Search > Organic Search > Direct,1,43.0,0.00020627062706270627,5
+Paid Search > Organic Search > Organic Search > Organic Search,1,108.0,0.00020627062706270627,4
+Paid Search > Organic Search > Direct > Direct > Direct > Direct,1,136.0,0.00020627062706270627,6
+Paid Search > Organic Search > Direct,1,228.0,0.00020627062706270627,3
+Paid Search > Email,1,32.0,0.00020627062706270627,2
+Paid Search > Direct > Referral,1,66.0,0.00020627062706270627,3
+Paid Search > Direct > Direct > Referral,1,0.0,0.00020627062706270627,4
+Paid Search > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,1,82.0,0.00020627062706270627,9
+Referral > Direct > Direct > Organic Search > Direct > Other/Unknown > Direct > Referral > Direct > Referral > Organic Search,1,150.0,0.00020627062706270627,11
+Organic Search > Referral > Direct > Other/Unknown > Direct,1,44.0,0.00020627062706270627,5
+Referral > Direct > Referral > Organic Search > Direct > Paid Search,1,176.0,0.00020627062706270627,6
+Referral > Referral > Referral > Referral > Referral > Referral,1,66.0,0.00020627062706270627,6
+Referral > Direct > Referral > Organic Search,1,141.0,0.00020627062706270627,4
+Referral > Direct > Referral > Direct > Referral > Other/Unknown,1,0.0,0.00020627062706270627,6
+Referral > Direct > Referral > Direct > Referral > Direct > Direct,1,108.0,0.00020627062706270627,7
+Referral > Direct > Referral > Direct > Direct > Referral,1,341.0,0.00020627062706270627,6
+Referral > Direct > Referral > Direct > Direct > Direct > Direct,1,152.0,0.00020627062706270627,7
+Referral > Direct > Other/Unknown > Referral,1,174.0,0.00020627062706270627,4
+Referral > Direct > Other/Unknown > Direct > Referral > Direct > Other/Unknown,1,35.0,0.00020627062706270627,7
+Referral > Direct > Organic Search > Referral > Referral > Referral,1,176.0,0.00020627062706270627,6
+Referral > Direct > Organic Search > Other/Unknown,1,0.0,0.00020627062706270627,4
+Referral > Direct > Organic Search > Organic Search > Direct > Direct,1,0.0,0.00020627062706270627,6
+Referral > Direct > Organic Search > Organic Search,1,79.0,0.00020627062706270627,4
+Referral > Direct > Organic Search > Direct > Organic Search > Referral,1,18.0,0.00020627062706270627,6
+Referral > Direct > Organic Search > Direct > Organic Search > Organic Search,1,48.0,0.00020627062706270627,6
+Referral > Direct > Organic Search > Direct > Organic Search > Direct > Organic Search,1,36.0,0.00020627062706270627,7
+Referral > Direct > Organic Search > Direct > Direct > Organic Search,1,55.0,0.00020627062706270627,6
+Referral > Direct > Organic Search > Direct,1,48.0,0.00020627062706270627,4
+Referral > Direct > Direct > Referral > Organic Search > Other/Unknown,1,306.0,0.00020627062706270627,6
+Referral > Direct > Direct > Referral > Organic Search > Direct > Organic Search,1,25.0,0.00020627062706270627,7
+Referral > Direct > Direct > Referral > Direct > Referral > Direct,1,48.0,0.00020627062706270627,7
+Referral > Direct > Direct > Referral > Direct > Referral,1,0.0,0.00020627062706270627,6
+Referral > Direct > Direct > Referral > Direct > Direct > Direct,1,67.0,0.00020627062706270627,7
+Organic Search > Referral > Direct > Other/Unknown > Organic Search > Direct > Direct,1,177.0,0.00020627062706270627,7
+Organic Search > Organic Search > Other/Unknown > Organic Search,1,27.0,0.00020627062706270627,4
+Organic Search > Referral > Direct > Organic Search,1,0.0,0.00020627062706270627,4
+Direct > Organic Search > Organic Search > Direct > Direct > Direct > Direct > Organic Search,1,32.0,0.00020627062706270627,8
+Direct > Other/Unknown > Email > Email,1,31.0,0.00020627062706270627,4
+Direct > Other/Unknown > Direct > Other/Unknown > Organic Search > Other/Unknown > Direct > Other/Unknown > Other/Unknown,1,0.0,0.00020627062706270627,9
+Direct > Other/Unknown > Direct > Other/Unknown,1,32.0,0.00020627062706270627,4
+Direct > Other/Unknown > Direct > Direct > Referral > Direct > Referral,1,85.0,0.00020627062706270627,7
+Direct > Other/Unknown > Direct > Direct > Other/Unknown > Paid Search > Direct > Direct > Direct,1,0.0,0.00020627062706270627,9
+Direct > Other/Unknown > Direct > Direct > Other/Unknown > Organic Search > Direct > Direct > Organic Search > Direct > Direct,1,44.0,0.00020627062706270627,11
+Direct > Other/Unknown > Direct > Direct > Organic Search,1,42.0,0.00020627062706270627,5
+Direct > Other/Unknown > Direct > Direct > Direct > Other/Unknown,1,0.0,0.00020627062706270627,6
+Direct > Other/Unknown > Direct > Direct > Direct,1,55.0,0.00020627062706270627,5
+Direct > Other/Unknown > Direct > Direct,1,33.0,0.00020627062706270627,4
+Direct > Organic Search > Referral > Direct > Referral,1,39.0,0.00020627062706270627,5
+Direct > Organic Search > Referral > Direct,1,105.0,0.00020627062706270627,4
+Direct > Organic Search > Other/Unknown > Referral,1,0.0,0.00020627062706270627,4
+Direct > Organic Search > Other/Unknown > Organic Search > Direct > Referral,1,39.0,0.00020627062706270627,6
+Direct > Organic Search > Other/Unknown > Organic Search,1,18.0,0.00020627062706270627,4
+Direct > Organic Search > Other/Unknown > Direct > Direct > Direct,1,14.0,0.00020627062706270627,6
+Direct > Organic Search > Organic Search > Referral > Referral,1,55.0,0.00020627062706270627,5
+Direct > Organic Search > Organic Search > Referral > Direct > Direct > Organic Search > Organic Search,1,576.0,0.00020627062706270627,8
+Direct > Organic Search > Organic Search > Other/Unknown,1,34.0,0.00020627062706270627,4
+Direct > Organic Search > Organic Search > Organic Search > Organic Search > Organic Search,1,63.0,0.00020627062706270627,6
+Direct > Organic Search > Organic Search > Organic Search > Organic Search,1,79.0,0.00020627062706270627,5
+Direct > Organic Search > Organic Search > Direct > Organic Search > Other/Unknown > Direct,1,92.0,0.00020627062706270627,7
+Direct > Organic Search > Organic Search > Direct > Organic Search,1,65.0,0.00020627062706270627,5
+Direct > Organic Search > Organic Search > Direct > Direct > Organic Search,1,14.0,0.00020627062706270627,6
+Direct > Organic Search > Organic Search > Direct > Direct > Direct > Paid Search,1,22.0,0.00020627062706270627,7
+Direct > Other/Unknown > Email > Referral,1,50.0,0.00020627062706270627,4
+Direct > Other/Unknown > Organic Search > Direct,1,101.0,0.00020627062706270627,4
+Direct > Other/Unknown > Organic Search > Organic Search,1,42.0,0.00020627062706270627,4
+Direct > Referral > Referral > Direct > Direct,1,90.0,0.00020627062706270627,5
+Organic Search > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,1,54.0,0.00020627062706270627,10
+Organic Search > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,1,65.0,0.00020627062706270627,9
+Organic Search > Direct > Direct > Direct > Direct > Direct > Direct > Direct,1,32.0,0.00020627062706270627,8
+Email > Organic Search > Direct,1,96.0,0.00020627062706270627,3
+Email > Email > Email > Direct > Direct > Direct,1,8.0,0.00020627062706270627,6
+Email > Email > Direct,1,0.0,0.00020627062706270627,3
+Email > Email,1,84.0,0.00020627062706270627,2
+Email > Direct > Direct,1,92.0,0.00020627062706270627,3
+Direct > Referral > Referral > Referral > Referral > Referral,1,20.0,0.00020627062706270627,6
+Direct > Referral > Referral > Referral > Organic Search,1,32.0,0.00020627062706270627,5
+Direct > Referral > Referral > Referral > Direct,1,178.0,0.00020627062706270627,5
+Direct > Referral > Referral > Direct,1,86.0,0.00020627062706270627,4
+Direct > Other/Unknown > Organic Search > Organic Search > Organic Search > Direct > Referral,1,326.0,0.00020627062706270627,7
+Direct > Referral > Other/Unknown > Direct > Direct > Direct,1,263.0,0.00020627062706270627,6
+Direct > Referral > Organic Search > Organic Search > Organic Search > Organic Search,1,256.0,0.00020627062706270627,6
+Direct > Referral > Organic Search > Direct,1,0.0,0.00020627062706270627,4
+Direct > Referral > Organic Search,1,14.0,0.00020627062706270627,3
+Direct > Referral > Direct > Referral,1,107.0,0.00020627062706270627,4
+Direct > Referral > Direct > Direct > Referral > Other/Unknown,1,86.0,0.00020627062706270627,6
+Direct > Paid Search > Direct > Referral,1,38.0,0.00020627062706270627,4
+Direct > Paid Search,1,60.0,0.00020627062706270627,2
+Direct > Other/Unknown > Referral > Direct > Organic Search > Organic Search > Direct,1,44.0,0.00020627062706270627,7
+Direct > Other/Unknown > Organic Search > Organic Search > Organic Search > Referral > Organic Search,1,14.0,0.00020627062706270627,7
+Direct > Other/Unknown > Organic Search > Organic Search > Organic Search > Other/Unknown > Direct,1,40.0,0.00020627062706270627,7
+Direct > Organic Search > Organic Search > Direct > Direct > Direct > Direct > Organic Search > Direct,1,85.0,0.00020627062706270627,9
+Direct > Organic Search > Organic Search > Direct > Direct > Direct,1,78.0,0.00020627062706270627,6
+Organic Search > Direct > Direct > Direct > Direct > Direct > Organic Search > Other/Unknown > Direct > Referral,1,44.0,0.00020627062706270627,10
+Direct > Organic Search > Direct > Other/Unknown,1,120.0,0.00020627062706270627,4
+Direct > Direct > Organic Search > Direct > Direct > Direct > Direct > Organic Search > Organic Search,1,57.0,0.00020627062706270627,9
+Direct > Direct > Organic Search > Direct > Direct,1,23.0,0.00020627062706270627,5
+Direct > Direct > Email > Organic Search > Referral,1,38.0,0.00020627062706270627,5
+Direct > Direct > Direct > Referral > Other/Unknown,1,13.0,0.00020627062706270627,5
+Direct > Direct > Direct > Referral > Direct > Referral,1,20.0,0.00020627062706270627,6
+Direct > Direct > Direct > Referral > Direct > Direct > Organic Search,1,48.0,0.00020627062706270627,7
+Direct > Direct > Direct > Paid Search > Organic Search > Referral,1,69.0,0.00020627062706270627,6
+Direct > Direct > Direct > Other/Unknown > Organic Search,1,364.0,0.00020627062706270627,5
+Direct > Direct > Direct > Other/Unknown,1,60.0,0.00020627062706270627,4
+Direct > Direct > Direct > Organic Search > Organic Search > Direct > Organic Search,1,39.0,0.00020627062706270627,7
+Direct > Direct > Direct > Organic Search > Organic Search,1,145.0,0.00020627062706270627,5
+Direct > Direct > Direct > Email > Email > Referral > Direct > Direct,1,41.0,0.00020627062706270627,8
+Direct > Direct > Direct > Email > Email,1,24.0,0.00020627062706270627,5
+Direct > Direct > Direct > Email > Direct,1,139.0,0.00020627062706270627,5
+Direct > Direct > Direct > Direct > Organic Search > Direct > Direct > Direct > Email,1,55.0,0.00020627062706270627,9
+Direct > Direct > Direct > Direct > Organic Search > Direct,1,311.0,0.00020627062706270627,6
+Direct > Direct > Direct > Direct > Email,1,118.0,0.00020627062706270627,5
+Direct > Direct > Direct > Direct > Direct > Referral > Direct,1,64.0,0.00020627062706270627,7
+Direct > Direct > Direct > Direct > Direct > Referral,1,0.0,0.00020627062706270627,6
+Direct > Direct > Direct > Direct > Direct > Other/Unknown > Direct > Organic Search > Other/Unknown,1,82.0,0.00020627062706270627,9
+Direct > Direct > Direct > Direct > Direct > Other/Unknown,1,350.0,0.00020627062706270627,6
+Direct > Direct > Direct > Direct > Direct > Organic Search > Organic Search,1,62.0,0.00020627062706270627,7
+Direct > Direct > Direct > Direct > Direct > Direct > Organic Search,1,142.0,0.00020627062706270627,7
+Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Organic Search > Direct,1,21.0,0.00020627062706270627,10
+Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,1,85.0,0.00020627062706270627,10
+Direct > Direct > Organic Search > Direct > Organic Search,1,320.0,0.00020627062706270627,5
+Direct > Direct > Organic Search > Direct > Organic Search > Direct,1,24.0,0.00020627062706270627,6
+Direct > Direct > Organic Search > Organic Search,1,56.0,0.00020627062706270627,4
+Direct > Direct > Referral > Other/Unknown,1,63.0,0.00020627062706270627,4
+Direct > Organic Search > Direct > Organic Search > Organic Search > Organic Search,1,18.0,0.00020627062706270627,6
+Direct > Organic Search > Direct > Organic Search > Organic Search > Direct > Organic Search > Direct,1,86.0,0.00020627062706270627,8
+Direct > Organic Search > Direct > Organic Search > Direct,1,99.0,0.00020627062706270627,5
+Direct > Organic Search > Direct > Direct > Referral > Direct,1,351.0,0.00020627062706270627,6
+Direct > Organic Search > Direct > Direct > Organic Search > Direct,1,228.0,0.00020627062706270627,6
+Direct > Organic Search > Direct > Direct > Direct > Organic Search > Referral > Direct,1,191.0,0.00020627062706270627,8
+Direct > Organic Search > Direct > Direct > Direct > Organic Search > Other/Unknown > Organic Search,1,39.0,0.00020627062706270627,8
+Direct > Email > Organic Search > Direct > Direct,1,219.0,0.00020627062706270627,5
+Direct > Email > Direct > Direct > Direct > Direct > Direct > Direct,1,55.0,0.00020627062706270627,8
+Direct > Email > Direct,1,104.0,0.00020627062706270627,3
+Direct > Direct > Referral > Other/Unknown > Direct,1,15.0,0.00020627062706270627,5
+Direct > Direct > Referral > Organic Search > Referral,1,53.0,0.00020627062706270627,5
+Direct > Direct > Organic Search > Organic Search > Organic Search > Direct,1,75.0,0.00020627062706270627,6
+Direct > Direct > Referral > Organic Search,1,82.0,0.00020627062706270627,4
+Direct > Direct > Referral > Direct > Organic Search > Other/Unknown,1,20.0,0.00020627062706270627,6
+Direct > Direct > Referral > Direct > Organic Search > Organic Search > Organic Search > Referral > Referral,1,68.0,0.00020627062706270627,9
+Direct > Direct > Referral > Direct > Direct > Organic Search,1,132.0,0.00020627062706270627,6
+Direct > Direct > Referral > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Referral,1,58.0,0.00020627062706270627,11
+Direct > Direct > Paid Search > Direct > Direct > Direct > Direct,1,0.0,0.00020627062706270627,7
+Direct > Direct > Other/Unknown > Organic Search > Paid Search,1,70.0,0.00020627062706270627,5
+Direct > Direct > Other/Unknown > Organic Search > Direct,1,65.0,0.00020627062706270627,5
+Direct > Direct > Other/Unknown > Direct > Direct > Organic Search > Direct > Direct > Direct > Direct > Direct > Direct,1,10.0,0.00020627062706270627,12
+Direct > Direct > Other/Unknown > Direct > Direct > Direct,1,22.0,0.00020627062706270627,6
+Direct > Direct > Organic Search > Other/Unknown > Direct,1,22.0,0.00020627062706270627,5
+Organic Search > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,1,0.0,0.00020627062706270627,11
+Organic Search > Direct > Direct > Direct > Direct > Organic Search > Direct > Organic Search,1,46.0,0.00020627062706270627,8
+Organic Search > Referral > Direct > Direct > Organic Search > Direct > Direct,1,254.0,0.00020627062706270627,7
+Organic Search > Organic Search > Organic Search > Direct > Referral,1,336.0,0.00020627062706270627,5
+Organic Search > Other/Unknown > Direct > Direct > Referral,1,54.0,0.00020627062706270627,5
+Organic Search > Other/Unknown > Direct > Direct > Other/Unknown,1,0.0,0.00020627062706270627,5
+Organic Search > Other/Unknown > Direct > Direct > Direct > Other/Unknown,1,61.0,0.00020627062706270627,6
+Organic Search > Other/Unknown > Direct > Direct > Direct > Organic Search > Direct,1,46.0,0.00020627062706270627,7
+Organic Search > Other/Unknown > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,1,16.0,0.00020627062706270627,10
+Organic Search > Other/Unknown > Direct > Direct > Direct > Direct,1,72.0,0.00020627062706270627,6
+Organic Search > Other/Unknown > Direct > Direct,1,130.0,0.00020627062706270627,4
+Organic Search > Organic Search > Referral > Referral > Referral > Referral > Referral > Referral,1,48.0,0.00020627062706270627,8
+Organic Search > Organic Search > Referral > Direct > Referral,1,55.0,0.00020627062706270627,5
+Organic Search > Organic Search > Referral > Direct > Organic Search,1,41.0,0.00020627062706270627,5
+Organic Search > Organic Search > Referral > Direct > Direct,1,96.0,0.00020627062706270627,5
+Organic Search > Organic Search > Other/Unknown > Referral,1,0.0,0.00020627062706270627,4
+Organic Search > Organic Search > Other/Unknown > Other/Unknown,1,50.0,0.00020627062706270627,4
+Organic Search > Organic Search > Other/Unknown > Direct > Other/Unknown > Organic Search > Other/Unknown,1,140.0,0.00020627062706270627,7
+Organic Search > Organic Search > Other/Unknown > Direct > Direct > Referral,1,30.0,0.00020627062706270627,6
+Organic Search > Organic Search > Organic Search > Referral > Other/Unknown,1,37.0,0.00020627062706270627,5
+Organic Search > Organic Search > Organic Search > Referral > Organic Search > Organic Search,1,64.0,0.00020627062706270627,6
+Organic Search > Organic Search > Organic Search > Referral > Direct > Direct > Referral > Direct,1,345.0,0.00020627062706270627,8
+Organic Search > Organic Search > Organic Search > Referral,1,0.0,0.00020627062706270627,4
+Organic Search > Organic Search > Organic Search > Other/Unknown > Direct > Direct > Direct,1,74.0,0.00020627062706270627,7
+Organic Search > Organic Search > Organic Search > Organic Search > Other/Unknown,1,5.0,0.00020627062706270627,5
+Organic Search > Organic Search > Organic Search > Organic Search > Organic Search,1,43.0,0.00020627062706270627,5
+Organic Search > Organic Search > Organic Search > Organic Search > Direct > Organic Search,1,0.0,0.00020627062706270627,6
+Organic Search > Organic Search > Organic Search > Organic Search > Direct > Direct > Direct,1,0.0,0.00020627062706270627,7
+Organic Search > Organic Search > Organic Search > Organic Search > Direct > Direct,1,60.0,0.00020627062706270627,6
+Organic Search > Other/Unknown > Direct > Organic Search,1,54.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Direct > Other/Unknown,1,128.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Direct > Other/Unknown > Direct,1,50.0,0.00020627062706270627,5
+Organic Search > Other/Unknown > Referral > Direct > Direct > Other/Unknown > Direct > Direct,1,69.0,0.00020627062706270627,8
+Organic Search > Referral > Direct > Direct > Direct > Organic Search > Organic Search,1,128.0,0.00020627062706270627,7
+Organic Search > Referral > Direct > Direct > Direct > Organic Search,1,11.0,0.00020627062706270627,6
+Organic Search > Referral > Direct > Direct > Direct,1,386.0,0.00020627062706270627,5
+Organic Search > Referral > Direct > Direct,1,118.0,0.00020627062706270627,4
+Organic Search > Paid Search > Other/Unknown > Organic Search,1,22.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Referral > Referral > Other/Unknown > Direct,1,752.0,0.00020627062706270627,6
+Organic Search > Other/Unknown > Referral > Referral,1,84.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Referral > Paid Search,1,91.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Referral > Other/Unknown > Organic Search > Direct,1,35.0,0.00020627062706270627,6
+Organic Search > Other/Unknown > Referral > Other/Unknown,1,29.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Referral > Organic Search > Direct > Direct > Direct > Direct,1,362.0,0.00020627062706270627,8
+Organic Search > Other/Unknown > Paid Search > Referral > Direct > Organic Search,1,156.0,0.00020627062706270627,6
+Organic Search > Other/Unknown > Direct > Other/Unknown > Organic Search > Direct,1,129.0,0.00020627062706270627,6
+Organic Search > Other/Unknown > Paid Search > Direct,1,53.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Other/Unknown > Other/Unknown > Organic Search > Direct > Direct,1,69.0,0.00020627062706270627,7
+Organic Search > Other/Unknown > Other/Unknown > Other/Unknown,1,23.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Other/Unknown > Organic Search > Organic Search,1,63.0,0.00020627062706270627,5
+Organic Search > Other/Unknown > Other/Unknown > Direct > Organic Search,1,65.0,0.00020627062706270627,5
+Organic Search > Other/Unknown > Organic Search > Referral,1,82.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Organic Search > Other/Unknown,1,110.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Organic Search > Organic Search > Direct,1,671.0,0.00020627062706270627,5
+Organic Search > Other/Unknown > Organic Search > Direct,1,13.0,0.00020627062706270627,4
+Organic Search > Other/Unknown > Direct > Referral > Referral,1,0.0,0.00020627062706270627,5
+Organic Search > Other/Unknown > Direct > Referral,1,98.0,0.00020627062706270627,4
+Organic Search > Organic Search > Organic Search > Direct > Referral > Organic Search > Direct > Direct > Direct,1,240.0,0.00020627062706270627,9
+Organic Search > Organic Search > Organic Search > Direct > Other/Unknown > Other/Unknown,1,86.0,0.00020627062706270627,6
+Organic Search > Direct > Direct > Direct > Direct > Organic Search > Organic Search,1,14.0,0.00020627062706270627,7
+Organic Search > Organic Search > Organic Search > Direct > Organic Search > Organic Search > Organic Search,1,61.0,0.00020627062706270627,7
+Organic Search > Direct > Organic Search > Referral > Organic Search > Referral,1,63.0,0.00020627062706270627,6
+Organic Search > Direct > Organic Search > Paid Search > Referral,1,96.0,0.00020627062706270627,5
+Organic Search > Direct > Organic Search > Other/Unknown > Referral > Direct,1,170.0,0.00020627062706270627,6
+Organic Search > Direct > Organic Search > Organic Search > Organic Search > Direct > Organic Search > Organic Search,1,30.0,0.00020627062706270627,8
+Organic Search > Direct > Organic Search > Organic Search > Organic Search > Direct,1,52.0,0.00020627062706270627,6
+Organic Search > Direct > Organic Search > Organic Search > Direct > Paid Search > Direct > Direct,1,50.0,0.00020627062706270627,8
+Organic Search > Direct > Organic Search > Email > Direct,1,197.0,0.00020627062706270627,5
+Organic Search > Direct > Organic Search > Direct > Other/Unknown > Direct,1,159.0,0.00020627062706270627,6
+Organic Search > Direct > Organic Search > Direct > Organic Search > Organic Search > Organic Search > Direct > Direct > Direct,1,48.0,0.00020627062706270627,10
+Organic Search > Direct > Organic Search > Direct > Organic Search > Direct > Organic Search,1,88.0,0.00020627062706270627,7
+Organic Search > Direct > Organic Search > Direct > Organic Search > Direct > Direct > Referral,1,117.0,0.00020627062706270627,8
+Organic Search > Direct > Organic Search > Direct > Organic Search,1,163.0,0.00020627062706270627,5
+Organic Search > Direct > Organic Search > Direct > Direct > Organic Search,1,147.0,0.00020627062706270627,6
+Organic Search > Direct > Organic Search > Direct > Direct > Direct > Direct,1,19.0,0.00020627062706270627,7
+Organic Search > Direct > Direct > Referral > Referral,1,278.0,0.00020627062706270627,5
+Organic Search > Direct > Direct > Referral > Direct > Direct > Referral > Direct > Organic Search > Organic Search,1,40.0,0.00020627062706270627,10
+Organic Search > Direct > Direct > Referral > Direct > Direct,1,67.0,0.00020627062706270627,6
+Organic Search > Direct > Direct > Paid Search > Organic Search > Direct > Direct > Other/Unknown > Organic Search > Other/Unknown > Referral > Other/Unknown,1,37.0,0.00020627062706270627,12
+Organic Search > Direct > Direct > Paid Search > Direct > Direct > Direct > Direct > Direct,1,168.0,0.00020627062706270627,9
+Organic Search > Direct > Direct > Other/Unknown > Organic Search,1,110.0,0.00020627062706270627,5
+Organic Search > Direct > Direct > Organic Search > Other/Unknown,1,90.0,0.00020627062706270627,5
+Organic Search > Direct > Direct > Organic Search > Direct > Organic Search > Organic Search > Organic Search,1,49.0,0.00020627062706270627,8
+Organic Search > Direct > Direct > Organic Search > Direct > Organic Search,1,41.0,0.00020627062706270627,6
+Organic Search > Direct > Direct > Direct > Referral > Direct > Direct > Direct > Direct > Direct,1,0.0,0.00020627062706270627,10
+Organic Search > Direct > Direct > Direct > Direct > Other/Unknown > Direct,1,68.0,0.00020627062706270627,7
+Organic Search > Direct > Other/Unknown > Direct > Direct,1,63.0,0.00020627062706270627,5
+Organic Search > Direct > Other/Unknown > Direct > Organic Search,1,112.0,0.00020627062706270627,5
+Organic Search > Direct > Other/Unknown > Organic Search,1,71.0,0.00020627062706270627,4
+Organic Search > Organic Search > Direct > Direct > Organic Search > Organic Search > Direct > Direct,1,90.0,0.00020627062706270627,8
+Organic Search > Organic Search > Organic Search > Direct > Organic Search > Organic Search > Direct > Organic Search > Direct > Direct,1,56.0,0.00020627062706270627,10
+Organic Search > Organic Search > Organic Search > Direct > Direct,1,30.0,0.00020627062706270627,5
+Organic Search > Organic Search > Direct > Referral,1,47.0,0.00020627062706270627,4
+Organic Search > Organic Search > Direct > Other/Unknown > Direct > Organic Search > Direct > Direct > Direct > Direct,1,137.0,0.00020627062706270627,10
+Organic Search > Organic Search > Direct > Organic Search > Referral > Organic Search > Other/Unknown,1,48.0,0.00020627062706270627,7
+Organic Search > Organic Search > Direct > Organic Search > Organic Search > Direct > Organic Search,1,135.0,0.00020627062706270627,7
+Organic Search > Organic Search > Direct > Organic Search > Organic Search,1,124.0,0.00020627062706270627,5
+Organic Search > Organic Search > Direct > Organic Search > Direct > Organic Search > Organic Search,1,35.0,0.00020627062706270627,7
+Organic Search > Organic Search > Direct > Organic Search > Direct > Direct,1,81.0,0.00020627062706270627,6
+Organic Search > Organic Search > Direct > Organic Search > Direct,1,48.0,0.00020627062706270627,5
+Organic Search > Organic Search > Direct > Direct > Other/Unknown,1,18.0,0.00020627062706270627,5
+Organic Search > Organic Search > Direct > Direct > Direct > Direct > Direct > Referral,1,128.0,0.00020627062706270627,8
+Organic Search > Direct > Other/Unknown > Organic Search > Direct > Direct > Other/Unknown,1,68.0,0.00020627062706270627,7
+Organic Search > Organic Search > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct > Direct,1,4.0,0.00020627062706270627,11
+Organic Search > Organic Search > Direct > Direct > Direct > Direct,1,72.0,0.00020627062706270627,6
+Organic Search > Direct > Referral > Referral > Referral,1,56.0,0.00020627062706270627,5
+Organic Search > Direct > Referral > Organic Search > Direct > Organic Search > Direct > Direct,1,159.0,0.00020627062706270627,8
+Organic Search > Direct > Referral > Organic Search > Direct > Organic Search,1,142.0,0.00020627062706270627,6
+Organic Search > Direct > Referral > Direct > Referral > Direct > Direct > Direct > Direct > Direct,1,110.0,0.00020627062706270627,10
+Organic Search > Direct > Referral > Direct > Referral > Direct,1,38.0,0.00020627062706270627,6
+Organic Search > Direct > Referral > Direct > Organic Search > Direct,1,175.0,0.00020627062706270627,6
+Organic Search > Direct > Referral > Direct > Organic Search,1,147.0,0.00020627062706270627,5
+Organic Search > Direct > Referral > Direct > Direct > Direct,1,41.0,0.00020627062706270627,6
+Organic Search > Direct > Other/Unknown > Organic Search > Other/Unknown,1,92.0,0.00020627062706270627,5
+Social > Direct,1,31.0,0.00020627062706270627,2

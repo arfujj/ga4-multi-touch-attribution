@@ -1,0 +1,17 @@
+priority,rule_name,source_regex,medium_regex,channel_group,rationale
+10,no_source_params,^\(null\)$,^\(null\)$,Direct,"Session carries no source/medium event params; GA4 reports these as (direct)/(none). Flagged as source_inferred."
+20,self_referral,googlemerchandisestore\.com,.*,Direct,"Referral from the store's own domains (cross-domain hop). GA4 would exclude it as an unwanted referral, so it continues as Direct."
+30,explicit_direct,^\(direct\)$,^(\(none\)|\(not set\)|\(null\))$,Direct,Explicit (direct)/(none).
+40,paid_search_medium,.*,^(cpc|ppc|paidsearch|paid[-_ ]search|sem)$,Paid Search,"Cost-per-click mediums (google / cpc)."
+50,display_medium,.*,^(display|cpm|banner|interstitial|expandable)$,Display,GA4 default display mediums.
+55,display_ad_network,doubleclick\.net,.*,Display,"Click-throughs from googleads.g.doubleclick.net (Google Display Network)."
+60,email_medium,.*,^e[-_ ]?mail$,Email,"Email mediums (Newsletter_* campaigns)."
+65,email_webmail_source,^(mail\.google\.com|outlook\.live\.com|mail\.yahoo\.com)$,.*,Email,Clicks from webmail clients.
+70,social_source,(facebook|instagram|twitter|^t\.co$|linkedin|lnkd\.in|reddit|youtube|pinterest|quora|tiktok|snapchat|vk\.com),.*,Social,"Known social / video network sources (GA4's Organic Social + Organic Video lists, merged)."
+75,social_medium,.*,^(social|social[-_ ]network|social[-_ ]media|sm)$,Social,Social mediums.
+80,organic_search,.*,^organic$,Organic Search,"Medium 'organic' (google, bing, baidu, yahoo...). Kept even when the source is obfuscated."
+90,affiliate,.*,^affiliate$,Referral,"Affiliate / partner program. Not one of the 8 target groups, so grouped with Referral (another site sent the visit)."
+100,referral,.*,^referral$,Referral,"Medium 'referral' from a non-self, non-social, non-webmail site. Kept even when the source is obfuscated."
+110,obfuscated,(<other>|\(data deleted\)),.*,Other/Unknown,"Source obfuscated and medium not classifiable."
+115,obfuscated_medium,.*,(<other>|\(data deleted\)),Other/Unknown,Medium obfuscated by Google's sample export.
+999,fallback,.*,.*,Other/Unknown,Anything not matched above.

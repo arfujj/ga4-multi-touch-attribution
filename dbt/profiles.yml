@@ -1,0 +1,14 @@
+# Uses Application Default Credentials (gcloud auth application-default login): no keyfile.
+ga4_mta:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: "{{ env_var('GCP_PROJECT_ID') }}"
+      dataset: "{{ env_var('BQ_DATASET', 'ga4_mta') }}"
+      location: "{{ env_var('BQ_LOCATION', 'US') }}"
+      threads: 4
+      priority: interactive
+      job_execution_timeout_seconds: 600
+      maximum_bytes_billed: 5000000000   # 5 GB hard cap per query

@@ -1,0 +1,49 @@
+channel,step_order,step,sessions,prev,step_rate,drop_off,step_label
+Direct,1,session_start,188830,,,,Session start
+Direct,2,view_item,32518,188830,0.17220780596303553,156312,View item
+Direct,3,add_to_cart,5995,32518,0.1843594316993665,26523,Add to cart
+Direct,4,begin_checkout,1925,5995,0.3211009174311927,4070,Begin checkout
+Direct,5,add_payment_info,1316,1925,0.6836363636363636,609,Add payment info
+Direct,6,purchase,985,1316,0.7484802431610942,331,Purchase
+Display,1,session_start,125,,,,Session start
+Display,2,view_item,69,125,0.552,56,View item
+Display,3,add_to_cart,5,69,0.07246376811594203,64,Add to cart
+Display,4,begin_checkout,3,5,0.6,2,Begin checkout
+Display,5,add_payment_info,0,3,0.0,3,Add payment info
+Display,6,purchase,0,0,,0,Purchase
+Email,1,session_start,351,,,,Session start
+Email,2,view_item,210,351,0.5982905982905983,141,View item
+Email,3,add_to_cart,80,210,0.38095238095238093,130,Add to cart
+Email,4,begin_checkout,49,80,0.6125,31,Begin checkout
+Email,5,add_payment_info,42,49,0.8571428571428571,7,Add payment info
+Email,6,purchase,34,42,0.8095238095238095,8,Purchase
+Organic Search,1,session_start,103039,,,,Session start
+Organic Search,2,view_item,27142,103039,0.26341482351342693,75897,View item
+Organic Search,3,add_to_cart,5219,27142,0.19228501952693242,21923,Add to cart
+Organic Search,4,begin_checkout,2268,5219,0.434566008813949,2951,Begin checkout
+Organic Search,5,add_payment_info,1365,2268,0.6018518518518519,903,Add payment info
+Organic Search,6,purchase,965,1365,0.706959706959707,400,Purchase
+Other/Unknown,1,session_start,31772,,,,Session start
+Other/Unknown,2,view_item,7145,31772,0.22488354525997734,24627,View item
+Other/Unknown,3,add_to_cart,1376,7145,0.19258222533240027,5769,Add to cart
+Other/Unknown,4,begin_checkout,546,1376,0.39680232558139533,830,Begin checkout
+Other/Unknown,5,add_payment_info,268,546,0.4908424908424908,278,Add payment info
+Other/Unknown,6,purchase,184,268,0.6865671641791045,84,Purchase
+Paid Search,1,session_start,7672,,,,Session start
+Paid Search,2,view_item,1656,7672,0.21584984358706985,6016,View item
+Paid Search,3,add_to_cart,271,1656,0.1636473429951691,1385,Add to cart
+Paid Search,4,begin_checkout,92,271,0.33948339483394835,179,Begin checkout
+Paid Search,5,add_payment_info,34,92,0.3695652173913043,58,Add payment info
+Paid Search,6,purchase,29,34,0.8529411764705882,5,Purchase
+Referral,1,session_start,27118,,,,Session start
+Referral,2,view_item,7983,27118,0.2943801165277675,19135,View item
+Referral,3,add_to_cart,2190,7983,0.2743329575347614,5793,Add to cart
+Referral,4,begin_checkout,1067,2190,0.4872146118721461,1123,Begin checkout
+Referral,5,add_payment_info,830,1067,0.7778819119025304,237,Add payment info
+Referral,6,purchase,649,830,0.7819277108433735,181,Purchase
+Social,1,session_start,1222,,,,Session start
+Social,2,view_item,297,1222,0.2430441898527005,925,View item
+Social,3,add_to_cart,37,297,0.12457912457912458,260,Add to cart
+Social,4,begin_checkout,9,37,0.24324324324324326,28,Begin checkout
+Social,5,add_payment_info,3,9,0.3333333333333333,6,Add payment info
+Social,6,purchase,2,3,0.6666666666666666,1,Purchase

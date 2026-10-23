@@ -1,0 +1,31 @@
+name: ga4_mta
+version: "1.0.0"
+config-version: 2
+profile: ga4_mta
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  start_suffix: "20201101"
+  end_suffix: "20210131"
+  lookback_days: 30
+  revenue_tolerance_pct: 0.5
+
+models:
+  ga4_mta:
+    +materialized: table
+    staging:
+      +materialized: table   # materialised once so downstream models never rescan the public dataset
+
+seeds:
+  ga4_mta:
+    channel_rules:
+      +column_types:
+        priority: int64
+        source_regex: string
+        medium_regex: string

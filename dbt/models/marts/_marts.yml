@@ -1,0 +1,79 @@
+version: 2
+models:
+  - name: fct_sessions
+    description: One row per session with channel group. Grain for KPIs and funnel.
+    columns:
+      - name: session_key
+        tests: [not_null, unique]
+      - name: channel
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Organic Search', 'Paid Search', 'Direct', 'Referral', 'Email', 'Social', 'Display', 'Other/Unknown']
+      - name: device_category
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['desktop', 'mobile', 'tablet', '(not set)']
+      - name: converted
+        tests: [not_null]
+  - name: fct_purchases
+    description: One row per de-duplicated purchase event.
+    columns:
+      - name: purchase_key
+        tests: [not_null, unique]
+      - name: session_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('fct_sessions')
+                field: session_key
+      - name: revenue_usd
+        tests: [not_null]
+  - name: fct_journey_touches
+    description: One row per touch (session) in a user journey, 30-day lookback.
+    tests:
+      - unique:
+          arguments:
+            column_name: "concat(journey_id, '-', cast(touch_number as string))"
+    columns:
+      - name: journey_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('fct_journeys')
+                field: journey_id
+      - name: session_key
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              arguments:
+                to: ref('fct_sessions')
+                field: session_key
+      - name: channel
+        tests: [not_null]
+  - name: fct_journeys
+    description: One row per user journey ending in purchase (converted) or not.
+    columns:
+      - name: journey_id
+        tests: [not_null, unique]
+      - name: n_touches
+        tests: [not_null]
+      - name: path
+        tests: [not_null]
+  - name: fct_funnel
+    description: Closed and open session funnel counts by channel x device x step.
+    tests:
+      - unique:
+          arguments:
+            column_name: "concat(channel, '|', device_category, '|', step)"
+    columns:
+      - name: step
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['session_start', 'view_item', 'add_to_cart', 'begin_checkout', 'add_payment_info', 'purchase']

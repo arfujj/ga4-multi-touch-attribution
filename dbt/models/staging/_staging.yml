@@ -1,0 +1,21 @@
+version: 2
+models:
+  - name: stg_ga4__events
+    description: One row per raw GA4 event with event_params flattened. Partitioned by event_date.
+    columns:
+      - name: event_key
+        description: Surrogate key (user, timestamp, event name, tie-break rank).
+        tests: [not_null, unique]
+      - name: event_name
+        tests: [not_null]
+      - name: user_pseudo_id
+        tests: [not_null]
+      - name: ga_session_id
+        tests: [not_null]
+      - name: session_key
+        tests: [not_null]
+      - name: purchase_revenue_usd
+        description: Purchase revenue in USD (purchase events only, else null).
+      - name: is_duplicate_purchase
+        description: True for repeat purchase events with the same user + session + transaction_id.
+        tests: [not_null]
